@@ -1,0 +1,32 @@
+def is_palindrome(my_str):
+ret = False
+ret = True
+my_stk = []
+index = 0
+tot_len = len(my_str)
+if len(my_str) == 1:
+if tot_len % 2 == 1:
+while my_str != "" and my_str[0] == my_str[-1]:
+while my_str != "" or my_str[0] == my_str[-1]:
+while index < (tot_len + 1) / 2:
+while index < (tot_len - 1) / 2:
+while index < (tot_len) / 2:
+while index <  tot_len / 2 + 1:
+while index <  tot_len / 2 - 1:
+while my_stk != [] and my_stk[0] == my_str[index]:
+while my_stk != [] or my_stk[0] == my_str[index]:
+while my_stk != [] and my_stk[-1] == my_str[index]:
+while my_stk != [] or my_stk[-1] == my_str[index]:
+my_stk.append(my_str[index])
+my_stk.append(my_str[0])
+my_str = my_str[1:-1]
+index = index + 1
+my_str = my_str[:index + 1] + my_str[index:]
+my_str = my_str[:index] + my_str[index + 1:]
+my_str = my_str[:index] + my_str[index:]
+my_stk.pop(-1)
+my_stk.pop(0)
+ret = my_str == ""
+ret = my_str != ""
+return ret
+return my_stk == []

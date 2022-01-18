@@ -1,0 +1,17 @@
+Unit tests                                                                  /11
+
+PEP8                                                                         /1
+
+Merging into dev-branch and then merging into master                         /2
+
+Design Recipe
+    First Function: square_me                                                /7
+       Comments:
+    Second Function: kanye_helper                                            /7
+       Comments:
+    Third Function: course_mark                                              /7
+       Comments:
+
+DEDUCTIONS:
+
+Total:                                                                      /35
